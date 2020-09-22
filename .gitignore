@@ -1,3 +1,6 @@
+.local-chromium
+chrome.png
+
 # Miscellaneous
 *.class
 *.log
