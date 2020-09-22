@@ -27,5 +27,5 @@ jobs:
 
     - uses: actions/upload-artifact@v2
       with:
-        name: Screenshot
-        path: chrome.png
+        name: Chrome screenshot
+        path: ${{ github.workspace }}/chrome.png
