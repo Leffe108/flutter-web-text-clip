@@ -20,6 +20,7 @@ jobs:
       with:
         channel: 'beta' # or: 'dev' or 'stable'
 
+    - run: flutter config --enable-web
     - run: flutter pub get
     - run: flutter build web
     - run: flutter test test/puppeteer.dart
