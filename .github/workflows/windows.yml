@@ -19,10 +19,12 @@ jobs:
     - uses: subosito/flutter-action@v1
       with:
         channel: 'beta' # or: 'dev' or 'stable'
+
     - run: flutter pub get
     - run: flutter build web
     - run: flutter test test/puppeteer.dart
+
     - uses: actions/upload-artifact@v2
-    - with:
+      with:
         name: Screenshot
         path: chrome.png
