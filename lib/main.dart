@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+const DEBUG_TEXT = 'yjqg';
+
 void main() {
   runApp(MyApp());
 }
@@ -20,7 +22,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  static const DEBUG_TEXT = 'yjqg';
   TextEditingController _controller = TextEditingController(text: DEBUG_TEXT);
 
   @override
