@@ -15,6 +15,7 @@ void main() {
 
     // Open in chrome
     var browser = await puppeteer.launch(
+      headless: false,
       defaultViewport: DeviceViewport(
         width: 200,
         height: 200,
