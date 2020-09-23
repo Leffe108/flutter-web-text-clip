@@ -1,16 +1,12 @@
 # webtextclip
 
-A new Flutter project.
+This project tries to reproduce https://github.com/flutter/flutter/issues/61614 with CI/CD.
 
-## Getting Started
+Currently the github action do not show the rendering issues shown when I run `flutter test test/puppeteer.dart` on my Windows 10 desktop.
 
-This project is a starting point for a Flutter application.
+Go to Actions tab in github and you can download an artifact containing chrome.png which was rendered in Chrome on Windows using github action.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Main code
+* lib/main.dart
+* test/puppeteer.dart
+* .github/workflows/windows.yml
