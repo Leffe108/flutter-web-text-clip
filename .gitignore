@@ -1,5 +1,6 @@
 .local-chromium
 chrome.png
+chrome.txt
 
 # Miscellaneous
 *.class
