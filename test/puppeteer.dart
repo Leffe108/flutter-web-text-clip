@@ -5,6 +5,7 @@ import 'package:puppeteer/puppeteer.dart';
 import 'package:shelf/shelf_io.dart' as io;
 import 'package:shelf_static/shelf_static.dart';
 
+@Timeout(const Duration(seconds: 300))
 void main() {
   test('puppetteer', () async {
     // Serve the web build
